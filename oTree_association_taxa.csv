@@ -1,0 +1,56 @@
+Example,
+1. bargaining
+2. battle_of_the_sexes
+3. bertrand
+4. common_value_auction
+5. cournot
+6. dictator
+7. guess_two_thirds
+8. lemon_market
+9. matching_pennies
+10. principal_agent
+11.prisoner
+12.public_goods
+13.quiz
+14.real_effort
+15.stackelberg
+16.survey
+17.traveler_dilemma
+18.trust
+19.ultimatum
+20.vickrey_auction
+21.volunteer_dilemma
+
+subsession->group,      0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0
+player->player,         1,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0
+group->player,          1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0,1,1,1,1,1
+subsession->player,     0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0
+player->role,           0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0
+player->group,          0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+group->group,           0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+subsession->subsession, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+player->payoff,         1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,1,1,1,1,1
+subsession->session,    0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0
+group->group,           0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+
+TAXA
+bertrand, dictator, guess two thirds, volunteer dilemma
+00100000100 / 00100010100
+
+principal agent, trust
+00101000100
+
+bargaining, battle of the sexes, cournot, prisoner, stackelberg, traveler dilemma
+01100000100 / 01101000100
+
+public goods, vickrey auction
+00110000100 / 000100000100
+
+common value auction, ultimatum
+10100100100 / 10100000110
+
+quiz, real effort, survey
+00010000010 / 00000000000
+
+lemon market, matching pennies
+10101010100 / 10101000111
